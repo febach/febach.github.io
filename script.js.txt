@@ -1,0 +1,16 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const header = document.querySelector('header');
+    const text = 'Welcome to my site!';
+    let index = 0;
+
+    function typeEffect() {
+        if (index < text.length) {
+            header.querySelector('h2').textContent += text.charAt(index);
+            index++;
+            setTimeout(typeEffect, 150);
+        }
+    }
+
+    header.querySelector('h2').textContent = '';
+    typeEffect();
+});
