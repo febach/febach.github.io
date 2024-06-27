@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector('header');
-    const text = 'Welcome to my site!';
+    const text = 'Head of the Department Research Data at FIZ Karlsruhe';
     let index = 0;
 
     function typeEffect() {
         if (index < text.length) {
             header.querySelector('h2').textContent += text.charAt(index);
             index++;
-            setTimeout(typeEffect, 150);
+            setTimeout(typeEffect, 100);
         }
     }
 
