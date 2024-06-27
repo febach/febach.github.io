@@ -1,23 +1,25 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Press Start 2P', cursive;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #000;
+    color: #ccc;
     line-height: 1.6;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1rem;
+    background-color: #222;
+    color: #0f0;
+    padding: 2rem 1rem;
     text-align: center;
+    border-bottom: 3px solid #0f0;
 }
 
 header img.profile-photo {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    border: 3px solid #0f0;
     margin-top: 10px;
 }
 
@@ -27,14 +29,17 @@ main {
 
 main section {
     margin-bottom: 20px;
+    border: 1px solid #333;
+    padding: 10px;
+    background-color: #111;
 }
 
 main h3 {
-    color: #4CAF50;
+    color: #0f0;
 }
 
 a {
-    color: #4CAF50;
+    color: #0f0;
     text-decoration: none;
 }
 
@@ -43,11 +48,12 @@ a:hover {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #222;
+    color: #0f0;
     text-align: center;
     padding: 10px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
+    border-top: 3px solid #0f0;
 }
