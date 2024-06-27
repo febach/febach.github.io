@@ -5,35 +5,39 @@ body {
     background-color: #000;
     color: #ccc;
     line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header, main, footer {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
 }
 
 header {
     background-color: #222;
     color: #0f0;
-    padding: 2rem 1rem;
+    padding: 1rem;
     text-align: center;
     border-bottom: 3px solid #0f0;
     position: relative;
 }
 
 header img.profile-photo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     border: 3px solid #0f0;
     margin-top: 10px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 10px;
-}
-
-header h1 {
-    margin-top: 130px;
 }
 
 .blinking-text {
     animation: blink 1s step-end infinite;
+    margin-top: 10px;
+    font-size: 1.5rem;
 }
 
 @keyframes blink {
@@ -47,6 +51,7 @@ header h1 {
 
 main {
     padding: 20px;
+    margin-top: 20px;
 }
 
 main section {
@@ -58,6 +63,20 @@ main section {
 
 main h3 {
     color: #0f0;
+    font-size: 1rem;
+}
+
+main p, main ul {
+    font-size: 0.75rem;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main ul li {
+    margin: 10px 0;
 }
 
 a {
@@ -75,4 +94,5 @@ footer {
     text-align: center;
     padding: 10px 0;
     border-top: 3px solid #0f0;
+    margin-top: 20px;
 }
