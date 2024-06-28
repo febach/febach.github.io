@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (index < text.length) {
             header.querySelector('h2').textContent += text.charAt(index);
             index++;
-            setTimeout(typeEffect, 100);
+            setTimeout(typeEffect, 110);
         }
     }
 
