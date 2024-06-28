@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector('header');
-    const text = 'Head of the Department Research Data at FIZ Karlsruhe';
+    const text = 'digitalisation of research and FAIR data';
     let index = 0;
 
     function typeEffect() {
